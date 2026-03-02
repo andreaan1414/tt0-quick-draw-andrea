@@ -21,10 +21,12 @@ yaml_version: 4
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       ""      # Your name
-  title:        ""      # Project title
-  language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
+  author:       "Andrea Arreortua"      # Your name
+  title:        "Quick Draw FSM"      # Project title
+  language:     "verilog" # other examples include Verilog, Amaranth, VHDL, etc
+  description:  "this is a simple version of the game quick draw that I had to implement for my intro logic design class. The game is meant for 2 players, 
+                  one player uses Button A and the other Button B. The Go button will trigger a timer with a random 4 bit value and count down to 0. When 
+                  that is done, the first player to push a button wins the game. If both tie, both win."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
